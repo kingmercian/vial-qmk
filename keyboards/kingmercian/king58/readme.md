@@ -8,7 +8,7 @@ Make example for this keyboard (after setting up your build environment):
 
 ### Bootloader
 To enter the bootloader
-* **Keycode in layout**: Press the key mapped to `QK_BOOT`
+* **Keycode in layout**: Press and hold the key mapped to `QK_BOOT`(see below) while applying power.
     * left side: Hold `ESC`
     * right side: Hold `~`
 

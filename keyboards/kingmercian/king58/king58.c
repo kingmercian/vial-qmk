@@ -67,11 +67,6 @@ void clear_screen(void) {
     }
 }
 
-void keyboard_post_init_kb(void) {
-  // Call the keyboard post init code.
-    init_timer();
-}
-
 bool oled_task_kb(void) {
     //if (!oled_task_user()) { return false; }
     if ((timer_elapsed32(oled_logo_timer) < SHOW_LOGO)){
